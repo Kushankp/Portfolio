@@ -8,12 +8,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  color: white;
-  background-color: black;
 }
 
 header {
-  background-color: #25b79f;
+  background-color: #000000;
+  color: #ffffff;
   height: 100vh;
 }
 
@@ -29,6 +28,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 500;
+  background-color: #000000;
 }
 
 .navbar-container {
@@ -49,18 +49,18 @@ header {
 
 .menu-items a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-size: 1.2rem;
   padding: 0.3rem;
 }
 
 .menu-items a:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #ffffff;
 }
 
 .navbar .logo {
   order: 1;
-  color: white;
+  color: #ffffff;
   font-size: 2rem;
 }
 
@@ -71,7 +71,7 @@ header {
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #07374a;
+  color: #ffffff;
   width: 100%;
   text-align: center;
 }
@@ -82,7 +82,7 @@ header {
 }
 
 .home-content .name p {
-  color: white;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 
@@ -92,20 +92,21 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  border: 3px solid #07374a;
+  border: 3px solid #ffffff;
   border-radius: 50%;
 }
 
 .angle-down-icon a {
   text-decoration: none;
-  color: #07374a;
+  color: #ffffff;
   padding: 1rem;
 }
 
 /* ////........About Me........//// */
 
 .about-me {
-  background-color: #07374a;
+  background-color: #000000;
+  color: #ffffff;
   padding: 6rem 0;
 }
 
@@ -125,7 +126,7 @@ header {
 
 .about-content p {
   font-size: 1.2rem;
-  color: white;
+  color: #ffffff;
   padding: 0 2.3rem;
   text-align: center;
 }
@@ -164,18 +165,19 @@ header {
 .skills-bar .bar .info span {
   font-size: 1rem;
   font-weight: 500;
+  color: #ffffff;
 }
 
 .skills-bar .bar .info {
   margin-bottom: 8px;
-  color: white;
+  color: #ffffff;
 }
 
 .skills-bar .bar .progress-line {
   position: relative;
   height: 10px;
   width: 550px;
-  background: #f0f0f0;
+  background: #ffffff;
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
@@ -224,8 +226,8 @@ header {
   border: 7px solid transparent;
   border-bottom-width: 0px;
   border-right-width: 0px;
-  border-top-style: #f0f0f0;
-  border-top-color: #f0f0f0;
+  border-top-style: #ffffff;
+  border-top-color: #ffffff;
 }
 
 .bar .progress-line span::after {
@@ -235,7 +237,7 @@ header {
   color: #07374a;
   font-size: 12px;
   font-weight: 700;
-  background: #f0f0f0;
+  background: #ffffff;
   padding: 1px 8px;
   border-radius: 3px;
 }
@@ -257,7 +259,7 @@ header {
 }
 
 .navbar.solid {
-  background-color: #07374a;
+  background-color: #000000;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px rgb(7 55 74 / 20%);
   z-index: 500;
@@ -265,13 +267,13 @@ header {
 
 .navbar.solid .navbar-brand {
   display: inline-block;
-  color: white;
+  color: #ffffff;
   transition: color 1s ease 0s;
 }
 
 .navbar-brand {
   display: none;
-  color: white;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -347,7 +349,7 @@ header {
 }
 
 .proj-1 .proj1-details button {
-  background: #f0f0e6;
+  background: #ffffff;
   padding: 0.5rem;
   margin-top: 0.5rem;
   width: 150px;
@@ -376,7 +378,7 @@ header {
 
 .proj-1 .proj1-details button:hover a,
 .proj-1 .proj1-details button:hover .fas {
-  color: #f0f0e6;
+  color: #ffffff;
 }
 
 /* ////.....proj2.....//// */
@@ -418,7 +420,7 @@ header {
 }
 
 .proj-2 .proj2-details button {
-  background: #f0f0e6;
+  background: #ffffff;
   padding: 0.5rem;
   margin-top: 0.5rem;
   width: 150px;
@@ -447,7 +449,7 @@ header {
 
 .proj-2 .proj2-details button:hover a,
 .proj-2 .proj2-details button:hover .fas {
-  color: #f0f0e6;
+  color: #ffffff;
 }
 
 .more-work {
@@ -463,18 +465,19 @@ header {
 
 .more-work a {
   text-decoration: none;
-  color: #f0f0e6;
+  color: #ffffff;
   font-size: 1.3rem;
 }
 
 .more-work a:hover {
-  border-bottom: 2px solid #f0f0e6;
+  border-bottom: 2px solid #ffffff;
 }
 
 /* ////......Contact......///// */
 
 .contact {
   background: #07374a;
+  color: #ffffff;
   position: relative;
   height: 92vh;
 }
@@ -495,7 +498,7 @@ header {
 }
 
 .contact-content .mail {
-  color: white;
+  color: #ffffff;
   padding-bottom: 0.2rem;
   font-size: 1rem;
 }
@@ -515,7 +518,7 @@ header {
 }
 
 .contact-content a:hover {
-  color: white;
+  color: #ffffff;
 }
 
 /* ////......Media query......//// */
