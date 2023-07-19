@@ -706,3 +706,48 @@ header {
     height: 90vmax;
   }
 }
+/* Additional CSS Styles and Hover Effects */
+
+/* Navbar Hover Effect */
+.menu-items a:hover {
+  color: #25b79f;
+  border-bottom: 2px solid #25b79f;
+}
+
+/* Home Content Hover Effect */
+.angle-down-icon a:hover {
+  background-color: #07374a;
+  color: #f0f0e6;
+}
+
+/* About Me Hover Effect */
+.about-content img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Skill Bar Hover Effect */
+.skills-bar .bar .progress-line span:hover {
+  background-color: #25b79f;
+  transition: background-color 0.3s ease;
+}
+
+/* Portfolio Hover Effect */
+.proj-1 img:hover, .proj-2 img:hover {
+  box-shadow: 0 30px 20px -20px rgb(37 41 52 / 50%);
+  transform: scale(1.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.proj1-details button:hover, .proj2-details button:hover {
+  background: #25b79f;
+  color: #f0f0e6;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Contact Hover Effect */
+.contact-content a:hover {
+  color: #25b79f;
+  transition: color 0.3s ease;
+}
+
