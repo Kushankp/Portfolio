@@ -706,48 +706,109 @@ header {
     height: 90vmax;
   }
 }
-/* Additional CSS Styles and Hover Effects */
+/* Updated Colors and Hover Effects */
 
-/* Navbar Hover Effect */
+/* Navbar Styles */
+header {
+  background-color: #07374a;
+  height: 100vh;
+}
+
+.menu-items a {
+  color: #f0f0e6;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+
 .menu-items a:hover {
   color: #25b79f;
   border-bottom: 2px solid #25b79f;
 }
 
-/* Home Content Hover Effect */
+.navbar .logo {
+  color: #f0f0e6;
+  font-size: 2rem;
+}
+
+/* Home Content Styles */
+.home-content .name {
+  color: #07374a;
+}
+
+.angle-down-icon a {
+  color: #07374a;
+  border: 3px solid #07374a;
+}
+
 .angle-down-icon a:hover {
   background-color: #07374a;
   color: #f0f0e6;
 }
 
-/* About Me Hover Effect */
+/* About Me Styles */
+.about-me {
+  background-color: #25b79f;
+}
+
+.about-me .about-heading {
+  color: #07374a;
+}
+
 .about-content img:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
 
-/* Skill Bar Hover Effect */
 .skills-bar .bar .progress-line span:hover {
-  background-color: #25b79f;
+  background-color: #07374a;
   transition: background-color 0.3s ease;
 }
 
-/* Portfolio Hover Effect */
-.proj-1 img:hover, .proj-2 img:hover {
+/* Portfolio Styles */
+.portfolio {
+  background: #07374a;
+}
+
+.proj-heading h1 {
+  color: #25b79f;
+}
+
+.proj-1 img:hover,
+.proj-2 img:hover {
   box-shadow: 0 30px 20px -20px rgb(37 41 52 / 50%);
   transform: scale(1.05);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.proj1-details button:hover, .proj2-details button:hover {
-  background: #25b79f;
+.proj1-details button:hover,
+.proj2-details button:hover {
+  background: #07374a;
   color: #f0f0e6;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Contact Hover Effect */
-.contact-content a:hover {
-  color: #25b79f;
-  transition: color 0.3s ease;
+/* Contact Styles */
+.contact {
+  background: #07374a;
 }
 
+.contact-content h2 {
+  color: #25b79f;
+}
+
+.contact-content .mail {
+  color: #f0f0e6;
+}
+
+.contact-content .links {
+  color: #25b79f;
+}
+
+.contact-content a {
+  color: #25b79f;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-content a:hover {
+  color: #f0f0e6;
+}
